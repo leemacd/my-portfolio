@@ -13,6 +13,8 @@
   <link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Londrina+Solid|Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
+  <link type="image/png" href="images/leaf.png" rel="icon">
+  <link rel="apple-touch-icon" href="images/leaf.png"/>
   <?php wp_head(); ?>
 </head>
 
@@ -21,20 +23,20 @@
 
 <div class="wrapper">
   <div class="container">
-    <nav>
-      <ul>
-        <li>
-          <a href="#home" class="smoothScroll">Home</a>
-        </li>
-        <li>
-          <a href="#about" class="smoothScroll">About</a>
-        </li>
-        <li>
-          <a href="#portfolio" class="smoothScroll">Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact" class="smoothScroll">Contact</a>
-        </li>
-      </ul>      
-    </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" class="smoothScroll">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="smoothScroll">About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="smoothScroll">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="smoothScroll">Contact</a>
+          </li>
+        </ul>      
+      </nav>
 

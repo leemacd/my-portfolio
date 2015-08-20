@@ -45,6 +45,11 @@ body {
 }
 
 /*Begin Custom Styles*/
+h2 {
+	margin: 0 0 0 2%;
+	display: inline-block;
+	padding: 2%;
+}
 
 /*Begin Header Styles*/
 .wrapper {
@@ -75,51 +80,128 @@ nav li {
 	width: 25vw;
 	text-decoration: none;
 	height: 50vh;
-	border: 30px solid rgba(255, 132, 0, 0.9);
+	border-top: 30px solid #ff7e00;
+	border-left: 30px solid #ff7e00;
+	border-right: 30px solid $myblue;
+	border-bottom: 30px solid $myblue;
 	text-align: center;
 	font-size: 50px;
 	justify-content: center;
 	align-items: center;
-	background: $myblue;
+	background-image: url(images/stripes.svg);
+	background-repeat: no-repeat;
+	letter-spacing: 2px;
+	font-family: "Fjalla One", cursive;
+	background: black;
 }
-	nav li:first-child, 
-	nav li:last-child {
-		border: 30px solid $myblue;
-		background: rgba(255, 132, 0, 0.85);
+	nav li:focus {
+		border-right: 30px solid #a4d9ec;
+		border-bottom: 30px solid #a4d9ec;
+		border-top: 30px solid #ffa44c;
+		border-left: 30px solid #ffa44c;
+		background-image: url(images/stripes.svg);
+		background-repeat: no-repeat; 
 	}
 li a {
-	color: $mywhite;
+	color: #f5fffa;
+	border: 5px solid #f5fffa;
+	background: black;
+	padding: 2%;
 }
+	li a:hover {
+		color: $myblue;
+	}
+	li a:focus {
+		color: black;
+		border: 5px solid black;
+		background: #f5fffa;
+		padding: 2%;
+	}
 
 // Begin Main-section Styles
 .home-section {
 	width: 50%;
 	height: 100vh;
 	color: white;
-	background: black;
-	// background-image: linear-gradient(rgba(248, 248, 255, 0.2), rgba(248, 248, 255, 0.2)), url(images/road.jpeg);
+	background-image: url(images/stripes.svg);
+	background-attachment: fixed;
+	// background: black;
+	// background-image: linear-gradient(rgba(248, 248, 255, 0.2), rgba(248, 248, 255, 0.2)), url(images/stripes.svg);
+}
+.content-wrapper {
+	background: linear-gradient(rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.85)), url();
+	color: white;
+	padding-bottom: 70%;
+	width: 90%;
+	margin: 5%;
+	border-top: 5px solid $myorange;
+	border-left: 5px solid $myorange;
+	border-bottom: 5px solid $myblue;
+	border-right: 5px solid $myblue;
+}
+.content-wrapper h1 {
+	border-bottom: 1px solid $myblue;
+	padding-bottom: 2%;
+	margin: 5% 0 1% 3%;
+	display: inline-block;
+	letter-spacing: 2px;
+	font-size: 50px;
 }
 
 // Begin About-section styles
 .about-section {
 	width: 50%;
 	height: 100vh;
+	background-image: url(images/stripes.svg);
+	background-attachment: fixed;
+}
+.about-section h2 {
+	background: white;
+	color: black;
+	border: 5px solid black;
 }
 
 // Begin Portfolio-section styles
 .portfolio-section {
 	width: 50%;
 	height: 100vh;
+	background-image: url(images/stripes.svg);
+	background-attachment: fixed;
+}
+.portfolio-section h2 {
+	background: white;
+	color: black;
+	border: 5px solid black;
 }
 
 // Begin Contact-section Styles
 .contact-section {
 	width: 50%;
 	height: 100vh;
+	background-image: url(images/stripes.svg);
+	background-attachment: fixed;
 }
+.contact-section h2 {
+	background: white;
+	color: black;
+	border: 5px solid black;
+}
+.social-icons {
+	display: block;
+}
+.contact-section a {
+	color: $myblue;
+	margin: 2%;
+}
+	.contact-section a:hover {
+		color: $myorange;
+	}
 .contact-section i {
 	font-size: 40px;
 }
+
+// Begin Footer Styles
+
 
 
 

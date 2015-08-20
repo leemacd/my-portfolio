@@ -1,6 +1,6 @@
 <footer>
-  <div class="container">
-    <p>Made by me. In 2015.</p>
+  <div class="footer-container">
+    <p>Made by me. In the year of 2015.</p>
   </div>
 </footer>
 </div>
