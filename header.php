@@ -6,28 +6,32 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php  wp_title('|', true, 'right'); ?></title>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
+  <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,800,700italic,700,400italic,300italic,300,800italic|Fjalla+One' rel='stylesheet' type='text/css'>
   <?php wp_head(); ?>
 </head>
 
 
 <body <?php body_class(); ?>>
 
-<header>
+<div class="wrapper">
   <div class="container">
-    <h1>
-      <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <?php bloginfo( 'name' ); ?>
-      </a>
-    </h1>
-
-    <?php wp_nav_menu( array(
-      'container' => false,
-      'theme_locations' => 'primary'
-    )); ?>
-  </div> <!-- /.container -->
-</header><!--/.header-->
+    <nav>
+      <ul>
+        <li>
+          <a href="#home" class="smoothScroll">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="smoothScroll">About</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="smoothScroll">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact" class="smoothScroll">Contact</a>
+        </li>
+      </ul>      
+    </nav>
 

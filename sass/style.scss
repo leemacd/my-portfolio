@@ -13,6 +13,7 @@
 @import 'sidebar';
 @import 'comments';
 @import 'footer';
+@import 'colours';
 /*
 ====================================
 Default Styling
@@ -27,11 +28,6 @@ body {
 	color: #333;
 }
 
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
 .content {
 	float: left;
 	width: 65%;
@@ -41,6 +37,96 @@ body {
 .full {
 	width: 100%;
 }
+
+/*Begin Custom Styles*/
+
+/*Begin Header Styles*/
+.wrapper {
+  max-width: 1280px;
+}
+.container {
+	display: flex;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+}
+nav {
+	max-width: 50%;
+	position: fixed;
+}
+nav ul {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: flex;
+	list-style-type: none;
+	width: 25vw;
+	text-decoration: none;
+	height: 50vh;
+	border: 30px solid $myorange;
+	text-align: center;
+	font-size: 25px;
+	justify-content: center;
+	align-items: center;
+	background: $myblue;
+}
+	nav li:first-child, 
+	nav li:last-child {
+		border: 30px solid $myblue;
+		background: $myorange;
+	}
+li a {
+	color: $mywhite;
+}
+
+// Begin Main-section Styles
+.home-section {
+	width: 50%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(248, 248, 255, 0.2), rgba(248, 248, 255, 0.2)), url(images/road.jpeg);
+}
+
+// Begin About-section styles
+.about-section {
+	width: 50%;
+	height: 100vh;
+}
+
+// Begin Portfolio-section styles
+.portfolio-section {
+	width: 50%;
+	height: 100vh;
+}
+
+// Begin Contact-section Styles
+.contact-section {
+	width: 50%;
+	height: 100vh;
+}
+.contact-section i {
+	font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

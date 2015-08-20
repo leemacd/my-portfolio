@@ -1,8 +1,9 @@
 <footer>
   <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+    <p>Made by me. In 2015.</p>
   </div>
 </footer>
+</div>
 
 <script>
 /* Google Analytics! */
@@ -11,6 +12,7 @@
  g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
  s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
 <?php wp_footer(); ?>
 </body>
