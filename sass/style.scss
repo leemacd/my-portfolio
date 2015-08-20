@@ -26,6 +26,12 @@ img {
 
 body {
 	color: #333;
+	// font-family: "Six Caps", sans-serif;
+	// font-family: "Londrina Solid", cursive;
+	// font-family: "Oswald", sans-serif;
+	// font-family: "Montserrat Alternates", sans-serif;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
 }
 
 .content {
@@ -69,9 +75,9 @@ nav li {
 	width: 25vw;
 	text-decoration: none;
 	height: 50vh;
-	border: 30px solid $myorange;
+	border: 30px solid rgba(255, 132, 0, 0.9);
 	text-align: center;
-	font-size: 25px;
+	font-size: 50px;
 	justify-content: center;
 	align-items: center;
 	background: $myblue;
@@ -79,7 +85,7 @@ nav li {
 	nav li:first-child, 
 	nav li:last-child {
 		border: 30px solid $myblue;
-		background: $myorange;
+		background: rgba(255, 132, 0, 0.85);
 	}
 li a {
 	color: $mywhite;
@@ -89,7 +95,9 @@ li a {
 .home-section {
 	width: 50%;
 	height: 100vh;
-	background-image: linear-gradient(rgba(248, 248, 255, 0.2), rgba(248, 248, 255, 0.2)), url(images/road.jpeg);
+	color: white;
+	background: black;
+	// background-image: linear-gradient(rgba(248, 248, 255, 0.2), rgba(248, 248, 255, 0.2)), url(images/road.jpeg);
 }
 
 // Begin About-section styles
