@@ -11,9 +11,10 @@
 
 		    <?php // Start the loop ?>
 		    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-			<div class="content-wrapper">
-		      <h1>Lee MacDonald</h1>
-		      <h3>Front-End Web Developer</h3>
+			<div class="home-content-wrapper">
+		      <h1>Lee <br> MacDonald</h1>
+		      <h3>Front-End <br> Web Developer</h3>
+		      <!-- <blockquote><span>"Stay Hungry, Stay Foolish."</span> - Steve Jobs</blockquote> -->
 		     </div>
 		      <?php the_content(); ?>
 
@@ -24,23 +25,27 @@
 		<!-- end of container -->
 
 		<section class="about-section" id="about">
-			<h2>About</h2>
-			<img src="" alt="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut mollitia, 
-			 quibusdam nostrum eveniet, libero, maxime quam
-			 hic earum laudantium unde commodi culpa accusamus, aperiam cupiditate 
-			 sed dolorum. Velit, cumque voluptatem.</p>
+			<h2>About ME</h2>
+			<div class="about-content-wrapper">
+				<div class="about-content">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/PAM_2534.jpg">
+					<p>toronto based. business guy. web development guy. sports guy.</p>
+				</div>
+			</div>
 		</section>
 
 		<section class="portfolio-section" id="portfolio">
-			<h2>Portfolio</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-			Ex a nobis nemo qui! Quasi aliquam magnam voluptates ullam a, non qui 
-			deserunt facere quo debitis dolorem assumenda officia harum repudiandae.</p>
+			<h2>Check Out My Work!</h2>
+			<div class="portfolio-content-wrapper">
+				
+			</div>
 		</section>
 
 		<section class="contact-section" id="contact">
 			<h2>Get At Me!</h2>
+			<div class="contact-content-wrapper">
+				
+			</div>
 			<div class="social-icons">
 				<a href="mailto:lee@leemacd.com" target="_blank">
 					<i class="fa fa-envelope-o"></i>

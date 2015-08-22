@@ -23,18 +23,18 @@
 
 <div class="wrapper">
   <div class="container">
-      <nav>
+      <nav id="navigation">
         <ul>
-          <li>
+          <li class="home selected">
             <a href="#home" class="smoothScroll">Home</a>
           </li>
-          <li>
+          <li class="about">
             <a href="#about" class="smoothScroll">About</a>
           </li>
-          <li>
+          <li class="portfolio">
             <a href="#portfolio" class="smoothScroll">Portfolio</a>
           </li>
-          <li>
+          <li class="contact">
             <a href="#contact" class="smoothScroll">Contact</a>
           </li>
         </ul>      
