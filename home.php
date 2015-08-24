@@ -40,7 +40,7 @@
 				<div class="project">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/road.jpeg" class="pic-one">
 					<div class="project-info one">
-						<h4>PSD Project</h4>
+						<h4>PSD Conversion</h4>
 						<p>This is that project where we did stuff, and then more stuff and
 						presented things and stuff. Cool story, Lee.</p>
 					</div>
@@ -48,7 +48,7 @@
 				<div class="project">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/road.jpeg" class="pic-two">
 					<div class="project-info two">
-						<h4>PSD Project</h4>
+						<h4>JavaScript Project</h4>
 						<p>This is that project where we did stuff, and then more stuff and
 						presented things and stuff. Cool story, Lee.</p>
 					</div>
@@ -56,7 +56,7 @@
 				<div class="project">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/road.jpeg" class="pic-three">
 					<div class="project-info three">
-						<h4>PSD Project</h4>
+						<h4>Wordpress Project</h4>
 						<p>This is that project where we did stuff, and then more stuff and
 						presented things and stuff. Cool story, Lee.</p>
 					</div>

@@ -13,6 +13,7 @@
   <link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Londrina+Solid|Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="image/png" href="images/leaf.png" rel="icon">
   <link rel="apple-touch-icon" href="images/leaf.png"/>
   <?php wp_head(); ?>
@@ -26,16 +27,16 @@
       <nav id="navigation">
         <ul>
           <li class="home selected">
-            <a href="#home" class="smoothScroll">Home</a>
+            <a href="#home" class="smoothScroll"><span>Home</span></a>
           </li>
           <li class="about">
-            <a href="#about" class="smoothScroll">About</a>
+            <a href="#about" class="smoothScroll"><span>About</span></a>
           </li>
           <li class="portfolio">
-            <a href="#portfolio" class="smoothScroll">Portfolio</a>
+            <a href="#portfolio" class="smoothScroll"><span>Portfolio</span></a>
           </li>
           <li class="contact">
-            <a href="#contact" class="smoothScroll">Contact</a>
+            <a href="#contact" class="smoothScroll"><span>Contact</span></a>
           </li>
         </ul>      
       </nav>

@@ -95,32 +95,45 @@ nav li {
 	letter-spacing: 2px;
 	font-family: "Fjalla One", cursive;
 	background: black;
+	position: relative;
+	transition: all 0.25s;
 }
 	.selected {
-		background-image: url(images/stripes.svg);
-		background-repeat: no-repeat;
+		background: transparent;
 		border-right: 30px solid #a4d9ec;
 		border-bottom: 30px solid #a4d9ec;
 		border-top: 30px solid #ffa44c;
 		border-left: 30px solid #ffa44c;
 	}
 li a {
-	color: $mywhite;
-	border: 5px solid $mywhite;
-	background: black;
-	padding: 2%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	justify-content: center;
+	align-items: center;
 }
-	li a:hover {
+li a span {
+	color: $mywhite;
+	// border: 5px solid $mywhite;
+	background: black;
+	padding: 10px 15px;
+	display: inline-block;
+	line-height: 100%;
+}
+	li a:hover span {
 		color: $myblue;
-		border: 5px solid $mylightorange;
+		// border: 5px solid $mylightorange;
 	}
-	li a:focus {
+	li a:focus span {
 		color: black;
-		border: 5px solid black;
+		// border: 5px solid black;
 		background: $mywhite;
 		padding: 2%;
 	}
-	li a.selected {
+	li a.selected span {
 		color: black;
 		border: 5px solid black;
 		background: $mywhite;
@@ -154,7 +167,7 @@ li a {
 .home-content-wrapper h1 {
 	border-bottom: 5px solid $myblue;
 	padding-bottom: 2%;
-	margin: 24% 0 1% 3%;
+	margin: 24% 0 1% 5%;
 	display: inline-block;
 	letter-spacing: 2px;
 	font-size: 70px;
@@ -362,7 +375,7 @@ footer p {
 	margin: 0;
 	color: $mywhite;
 	background: black;
-	border: 5px solid $mywhite;
+	// border: 5px solid $mywhite;
 	padding: 1.5%;
 }
 
