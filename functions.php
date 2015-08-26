@@ -57,7 +57,7 @@ function hackeryou_scripts() {
 
   wp_enqueue_script(
      'smoothScroll', //handle
-     get_template_directory_uri() . '/js/smoothScroll.js', //source
+     get_template_directory_uri() . '/js/smoothscroll.js', //source
      false, //dependencies
      null, // version number
      true //load in footer
