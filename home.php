@@ -28,7 +28,7 @@
 			<div class="about-content-wrapper">
 				<div class="about-content">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/PAM_2534.jpg">
-					<p>toronto based. business guy. web dev guy. sports guy.</p>
+					<p>toronto based. <br> business guy. <br> web dev guy. <br> sports guy.</p>
 				</div>
 			</div>
 		</section>

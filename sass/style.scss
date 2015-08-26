@@ -517,8 +517,44 @@ footer p {
 	}
 }
 
-@media (max-width: ) {
-	
+@media (max-width: 480px) {
+	.container {
+		display: block;
+	}
+	nav {
+		max-width: 100%;
+		position: relative;
+	}
+	nav li {
+		width: 50vw;
+	}
+	.selected {
+		background: black;
+		border-top: 30px solid $myorange;
+		border-left: 30px solid $myorange;
+		border-right: 30px solid $myblue;
+		border-bottom: 30px solid $myblue;
+	}
+	.home-section {
+		width: 100%;
+	}
+	.about-section {
+		width: 100%;
+	}
+	.about-section img {
+		height: 275px;
+		margin: 12% 0 0 17%;
+	}
+	.about-section p {
+		margin: 3% 0 0 26%;
+	}
+	.portfolio-section {
+		width: 100%;
+		margin: 18% 0 58% 0;
+	}
+	footer {
+		width: 100%;
+	}
 }
 
 
