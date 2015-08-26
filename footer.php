@@ -3,7 +3,7 @@
     <p>Made by me. In the year of 2015.</p>
   </div>
 </footer>
-</div>
+<!-- </div> wrapper div -->
 
 <script>
 /* Google Analytics! */

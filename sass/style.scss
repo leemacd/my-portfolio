@@ -26,13 +26,12 @@ img {
 
 body {
 	color: #333;
-	// font-family: "Six Caps", sans-serif;
-	// font-family: "Londrina Solid", cursive;
-	// font-family: "Oswald", sans-serif;
-	// font-family: "Montserrat Alternates", sans-serif;
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
 	position: relative;
+	background-image: url(images/stripes.svg);
+	background-attachment: fixed;
+	font-size: 10px;
 }
 
 .content {
@@ -50,13 +49,17 @@ h2 {
 	margin: 0 0 0 2%;
 	display: inline-block;
 	padding: 2%;
+	font-size: 1.5rem;
+}
+h4 {
+	font-size: 1.2rem;
+	text-align: center;
 }
 
 /*Begin Header Styles*/
 .wrapper {
   max-width: 1280px;
-  background-image: url(images/stripes.svg);
-  background-attachment: fixed;
+  margin: 0 auto;
 }
 .container {
 	display: flex;
@@ -89,7 +92,7 @@ nav li {
 	border-right: 30px solid $myblue;
 	border-bottom: 30px solid $myblue;
 	text-align: center;
-	font-size: 50px;
+	font-size: 3rem;
 	justify-content: center;
 	align-items: center;
 	letter-spacing: 2px;
@@ -117,7 +120,6 @@ li a {
 }
 li a span {
 	color: $mywhite;
-	// border: 5px solid $mywhite;
 	background: black;
 	padding: 10px 15px;
 	display: inline-block;
@@ -125,19 +127,8 @@ li a span {
 }
 	li a:hover span {
 		color: $myblue;
-		// border: 5px solid $mylightorange;
 	}
-	li a:focus span {
-		color: black;
-		// border: 5px solid black;
-		background: $mywhite;
-		padding: 2%;
-	}
-	li a.selected span {
-		color: black;
-		border: 5px solid black;
-		background: $mywhite;
-	}
+
 	// li:active {
 	// 	background-image: url(images/stripes.svg);
 	// 	background-repeat: no-repeat;
@@ -163,14 +154,19 @@ li a span {
 	border-left: 10px solid $myorange;
 	border-bottom: 10px solid $myblue;
 	border-right: 10px solid $myblue;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 .home-content-wrapper h1 {
 	border-bottom: 5px solid $myblue;
 	padding-bottom: 2%;
-	margin: 24% 0 1% 5%;
+	margin: 125px auto 40px auto;
 	display: inline-block;
 	letter-spacing: 2px;
-	font-size: 70px;
+	font-size: 4.5rem;
 	text-align: center;
 }
 .home-content-wrapper h3 {
@@ -178,19 +174,9 @@ li a span {
 	letter-spacing: 3px;
 	border-bottom: 5px solid $myorange;
 	display: inline-block;
-	margin: 6% 0 0 30%;
-	padding-bottom: 2%;
-}
-.home-content-wrapper blockquote {
-	color: $mywhite;
-	border: 10px solid $mywhite;
-	background: black;
-	display: inline-block;
-	font-size: 15px;
 	margin: 0 auto;
-}
-.home-content-wrapper span {
-	font-style: italic;
+	padding-bottom: 2%;
+	font-size: 1.5rem;
 }
 
 // Begin About-section styles
@@ -198,7 +184,7 @@ li a span {
 	width: 50%;
 	height: 100vh;
 	position: relative;
-	margin: 8% 0 4% 0;
+	margin: 8% 0 5% 0;
 }
 .about-content-wrapper {
 	background: $mylightorange;
@@ -217,21 +203,19 @@ li a span {
 	margin: 10% 0 0 5%;
 	position: absolute;
 	top: -2%;
-	left: 5%;
+	left: 11%;
 }
 .about-content {
 	border: 10px solid black;
 	color: black;
 	background: $mywhite;
-	margin: 25% 11% 0 11%;
+	margin: 28% 11% 0 11%;
 	display: flex;
 }
 .about-content-wrapper img {
 	width: 200px;
 	height: 300px;
-	border-radius: 5px;
 	margin: 3%;
-	// border: 10px solid black;
 }
 .about-content-wrapper p {
 	text-align: left;
@@ -239,13 +223,14 @@ li a span {
 	height: 225px;
 	padding: 4%;
 	margin: 18% 0 0 0;
+	font-size: 1rem;
 }
 
 // Begin Portfolio-section styles
 .portfolio-section {
 	width: 50%;
 	height: 100vh;
-	margin: 0% 0 63% 0;
+	margin: 0 0 63% 0;
 }
 .portfolio-content-wrapper {
 	background: $mylightblue;
@@ -264,11 +249,10 @@ li a span {
 	border: 10px solid black;
 	position: absolute;
 	top: 3%;
-	left: 5%;
+	left: 4%;
 }
 .portfolio-content-wrapper img {
-	width: 350px;
-	height: 250px;
+	width: 80%;
 	border: 10px solid black;
 	background: $mywhite;
 	padding: 2%;
@@ -281,17 +265,17 @@ li a span {
 }
 .project-info {
 	text-align: left;
-	width: 230px;
-	height: 205px;
+	width: 41%;
 	background: $mywhite;
 	border: 10px solid black;
 	padding: 2%;
 }
 .project-info h4 {
 	margin: 0;
+	font-size: 1rem;
 }
 .project-info p {
-	font-size: 15px;
+	font-size: 0.8rem;
 	margin: 4% 0 0 0;
 }
 .project-info.one {
@@ -299,12 +283,31 @@ li a span {
 	top: 70%;
 	right: 6%;
 }
+.live-button {
+	border: 10px solid $mywhite;
+	padding: 2% 4%;
+	background: black;
+	color: $mywhite;
+	position: absolute;
+	top: 102%;
+	font-size: 1rem;
+}
+.live-button.first,
+.live-button.third {
+	right: 58%;
+}
+.live-button.second {
+	right: 15%;
+}
+	.live-button:hover {
+		color: $myorange;
+	}
 .pic-two {
-	margin: 25% 0 0 31%;
+	margin: 25% 0 0 14%;
 }
 .project-info.two {
 	position: absolute;
-	top: 70%;
+	top: 74%;
 	left: 6%;
 }
 .pic-three {
@@ -312,7 +315,7 @@ li a span {
 }
 .project-info.three {
 	position: absolute;
-	top: 70%;
+	top: 73%;
 	right: 6%;
 }
 
@@ -342,7 +345,7 @@ li a span {
 }
 .contact-content-wrapper p {
 	text-align: center;
-	font-size: 30px;
+	font-size: 2rem;
 	margin: 0;
 }
 .contact-content {
@@ -363,7 +366,7 @@ li a span {
 		color: $myorange;
 	}
 .contact-section i {
-	font-size: 40px;
+	font-size: 3rem;
 }
 
 // Begin Footer Styles
@@ -375,9 +378,51 @@ footer p {
 	margin: 0;
 	color: $mywhite;
 	background: black;
-	// border: 5px solid $mywhite;
 	padding: 1.5%;
 }
+
+// Begin Media Queries
+@media (min-width: 1280px) and (max-width: 2000px) {
+	.wrapper {
+		max-width: 2000px;
+	}
+	.home-content-wrapper {
+		height: 92vh;
+		padding: 0;
+	}
+	.home-content-wrapper h1 {
+		width: 76%;
+	}
+	.home-content-wrapper h3 {
+		width: 30%;
+	}
+}
+
+@media (max-width: 940px) {
+	nav li {
+		font-size: 2rem;
+	}
+	.home-content-wrapper {
+		height: 92vh;
+	}
+	.home-content-wrapper h1 {
+		font-size: 3rem;
+	}
+	.about-content {
+		display: block;
+	}
+	.about-content img {
+		display: inline-block;
+		max-width: 70%;
+		margin: 12% 0 0 15%;
+	}
+	.about-content p {
+		margin: 3% 0 0 15%;
+		width: 65%;
+		height: 120px;
+	}
+}
+
 
 
 

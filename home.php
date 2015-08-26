@@ -14,7 +14,6 @@
 			<div class="home-content-wrapper">
 		      <h1>Lee <br> MacDonald</h1>
 		      <h3>Front-End <br> Web Developer</h3>
-		      <!-- <blockquote><span>"Stay Hungry, Stay Foolish."</span> - Steve Jobs</blockquote> -->
 		     </div>
 		      <?php the_content(); ?>
 
@@ -38,28 +37,31 @@
 			<div class="portfolio-content-wrapper">
 				<h2>Check Out My Work!</h2>
 				<div class="project">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/road.jpeg" class="pic-one">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project2.png" class="pic-one">
 					<div class="project-info one">
 						<h4>PSD Conversion</h4>
-						<p>This is that project where we did stuff, and then more stuff and
-						presented things and stuff. Cool story, Lee.</p>
+						<p>Provided with a design from a "client", I converted a PSD into
+						an actual site using only HTML and CSS.</p>
 					</div>
+					<a href="http://leemacd.com/project2" target="_blank" class="live-button first">See it LIVE</a>
 				</div>
 				<div class="project">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/road.jpeg" class="pic-two">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project4.png" class="pic-two">
 					<div class="project-info two">
-						<h4>JavaScript Project</h4>
-						<p>This is that project where we did stuff, and then more stuff and
-						presented things and stuff. Cool story, Lee.</p>
+						<h4>jQuery Interactive Project</h4>
+						<p>In groups we pair-programmed a fun, interactive quiz
+						to help those in Toronto find out where they should live within the city.</p>
 					</div>
+					<a href="http://leemacd.com/project4" target="_blank" class="live-button second">See it LIVE</a>
 				</div>
 				<div class="project">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/road.jpeg" class="pic-three">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project7.png" class="pic-three">
 					<div class="project-info three">
-						<h4>Wordpress Project</h4>
-						<p>This is that project where we did stuff, and then more stuff and
-						presented things and stuff. Cool story, Lee.</p>
+						<h4>Custom Wordpress Theme</h4>
+						<p>In pairs we designed and built a custom Wordpress theme to be used 
+						for those wanting to show-off their work.</p>
 					</div>
+					<a href="http://leemacd.com/project7" target="_blank" class="live-button third">See it LIVE</a>
 				</div>
 			</div>
 		</section>
@@ -85,11 +87,6 @@
 				</div>
 			</div>
 		</section>
-
-
-
-
-
-
-
+	</div>
+	<!-- close wrapper div -->
 	<?php get_footer(); ?>

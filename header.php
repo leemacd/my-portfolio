@@ -10,12 +10,9 @@
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,800,700italic,700,400italic,300italic,300,800italic|Fjalla+One' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Londrina+Solid|Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link type="image/png" href="images/leaf.png" rel="icon">
-  <link rel="apple-touch-icon" href="images/leaf.png"/>
+  <link type="image/png" href="<?php bloginfo('template_directory'); ?>/images/leaf.png" rel="icon">
+  <link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/images/leaf.png"/>
   <?php wp_head(); ?>
 </head>
 
