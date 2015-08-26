@@ -36,7 +36,7 @@
 		<section class="portfolio-section" id="portfolio">
 			<div class="portfolio-content-wrapper">
 				<h2>Check Out My Work!</h2>
-				<div class="project">
+				<div class="project project-container-one">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project2.png" class="pic-one">
 					<div class="project-info one">
 						<h4>PSD Conversion</h4>
@@ -45,7 +45,7 @@
 					</div>
 					<a href="http://leemacd.com/project2" target="_blank" class="live-button first">See it LIVE</a>
 				</div>
-				<div class="project">
+				<div class="project project-container-two">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project4.png" class="pic-two">
 					<div class="project-info two">
 						<h4>jQuery Interactive Project</h4>
@@ -54,7 +54,7 @@
 					</div>
 					<a href="http://leemacd.com/project4" target="_blank" class="live-button second">See it LIVE</a>
 				</div>
-				<div class="project">
+				<div class="project project-container-three">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project7.png" class="pic-three">
 					<div class="project-info three">
 						<h4>Custom Wordpress Theme</h4>

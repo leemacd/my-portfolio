@@ -52,7 +52,6 @@ h2 {
 	font-size: 1.5rem;
 }
 h4 {
-	font-size: 1.2rem;
 	text-align: center;
 }
 
@@ -188,7 +187,7 @@ li a span {
 }
 .about-content-wrapper {
 	background: $mylightorange;
-	padding-bottom: 15%;
+	padding-bottom: 10%;
 	width: 90%;
 	margin: 0 5%;
 	border-top: 10px solid $myblue;
@@ -379,6 +378,7 @@ footer p {
 	color: $mywhite;
 	background: black;
 	padding: 1.5%;
+	font-size: 0.9rem;
 }
 
 // Begin Media Queries
@@ -408,6 +408,9 @@ footer p {
 	.home-content-wrapper h1 {
 		font-size: 3rem;
 	}
+	.about-section {
+		margin: 4% 0 5% 0;
+	}
 	.about-content {
 		display: block;
 	}
@@ -421,8 +424,102 @@ footer p {
 		width: 65%;
 		height: 120px;
 	}
+	.portfolio-section {
+		margin: 0 0 58% 0;
+	}
+	.portfolio-content-wrapper {
+		padding-bottom: 26%;
+	}
+	.project-container-one {
+		margin-bottom: 2%;
+	}
+	.project-container-two {
+		margin-bottom: 17%;
+	}
+	.project-container-three {
+		margin-bottom: 12%;
+	}
+	.project-info h4 {
+		font-size: 0.8rem;
+	}
+	.project-info p {
+		font-size: 0.7rem;
+	}
+	.contact-section {
+		height: 94vh;
+	}
+	.contact-section h2 {
+		top: 7%;
+	}
+	.contact-content-wrapper p {
+		font-size: 1.7rem;
+	}
 }
 
+@media (max-width: 768px) {
+	nav li {
+		font-size: 1rem;
+	}
+	.home-content-wrapper h1 {
+		font-size: 2rem;
+	}
+	.home-content-wrapper h3 {
+		font-size: 1rem;
+	}
+	.about-section {
+		margin: 4% 0 -4% 0;
+	}
+	.about-content-wrapper img {
+		height: 225px;
+	}
+	.about-content p {
+		height: 140px;
+		font-size: 0.85rem;
+	}
+	.portfolio-content-wrapper h2 {
+		font-size: 1rem;
+	}
+	.project-info {
+		width: 50%;
+	}
+	.project-info.one {
+		right: 5%;
+	}
+	.portfolio-content-wrapper img {
+		width: 89%;
+	}
+	.live-button {
+		font-size: 0.7rem;
+	}
+	.live-button.second {
+		right: 8%;
+	}
+	.project-container-one {
+		margin-bottom: 6%;
+	}
+	.project-container-two {
+		margin-bottom: 24%;
+	}
+	.pic-two {
+		margin: 25% 0 0 6%;
+	}
+	.project-container-three {
+		margin-bottom: 22%;
+	}
+	.project-info.three {
+		top: 78%;
+	}
+	.contact-content {
+		margin: 41% 6% 0 6%;
+	}
+	.contact-content-wrapper p {
+		font-size: 1.3rem;
+	}
+}
+
+@media (max-width: ) {
+	
+}
 
 
 
