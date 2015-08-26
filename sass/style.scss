@@ -540,6 +540,7 @@ footer p {
 	}
 	.about-section {
 		width: 100%;
+		margin: 0 0 -10% 0;
 	}
 	.about-section img {
 		height: 275px;
@@ -550,7 +551,22 @@ footer p {
 	}
 	.portfolio-section {
 		width: 100%;
-		margin: 18% 0 58% 0;
+		margin: 18% 0 108% 0;
+	}
+	.portfolio-content-wrapper {
+		padding-bottom: 7%;
+	}
+	.project-container-one {
+		margin-bottom: 0;
+	}
+	.project-container-two {
+		margin-bottom: 6%;
+	}
+	.contact-section {
+		width: 100%;
+	}
+	.contact-section h2 {
+		top: 10%;
 	}
 	footer {
 		width: 100%;

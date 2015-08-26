@@ -37,7 +37,9 @@
 			<div class="portfolio-content-wrapper">
 				<h2>Check Out My Work!</h2>
 				<div class="project project-container-one">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project2.png" class="pic-one">
+					<a href="http://leemacd.com/project2" target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project2.png" class="pic-one">
+					</a>
 					<div class="project-info one">
 						<h4>PSD Conversion</h4>
 						<p>Provided with a design from a "client", I converted a PSD into
@@ -46,7 +48,9 @@
 					<a href="http://leemacd.com/project2" target="_blank" class="live-button first">See it LIVE</a>
 				</div>
 				<div class="project project-container-two">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project4.png" class="pic-two">
+					<a href="http://leemacd.com/project4" target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project4.png" class="pic-two">
+					</a>
 					<div class="project-info two">
 						<h4>jQuery Interactive Project</h4>
 						<p>In groups we pair-programmed a fun, interactive quiz
@@ -55,7 +59,9 @@
 					<a href="http://leemacd.com/project4" target="_blank" class="live-button second">See it LIVE</a>
 				</div>
 				<div class="project project-container-three">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project7.png" class="pic-three">
+					<a href="http://leemacd.com/project7" target="_blank">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/project7.png" class="pic-three">
+					</a>
 					<div class="project-info three">
 						<h4>Custom Wordpress Theme</h4>
 						<p>In pairs we designed and built a custom Wordpress theme to be used 
