@@ -187,6 +187,9 @@ li a span {
 	position: relative;
 	margin: 8% 0 5% 0;
 }
+.hello {
+	font-weight: 700;
+}
 .about-content-wrapper {
 	background: $mylightorange;
 	// padding-bottom: 10%;
@@ -225,7 +228,7 @@ li a span {
 	// height: 225px;
 	width: 90%;
 	padding: 1%;
-	margin: 18% 0 0 0;
+	margin: 7% 0 0 0;
 	font-size: 1rem;
 }
 
@@ -233,7 +236,7 @@ li a span {
 .portfolio-section {
 	width: 50%;
 	height: 100vh;
-	margin: 0 0 70% 0;
+	margin: 0 0 73% 0;
 }
 .portfolio-content-wrapper {
 	background: $mylightblue;
@@ -292,29 +295,36 @@ li a span {
 	background: black;
 	color: $mywhite;
 	position: absolute;
-	top: 102%;
+	top: 101%;
 	font-size: 1rem;
 }
 .live-button.first,
 .live-button.third {
-	right: 58%;
+	right: 57%;
 }
 .live-button.second {
 	right: 15%;
+	top: 102%;
 }
 	.live-button:hover {
 		color: $myorange;
 	}
+.project-container-two {
+	margin-top: 25%;
+}
 .pic-two {
-	margin: 25% 0 0 14%;
+	margin: 0 0 0 14%;
 }
 .project-info.two {
 	position: absolute;
 	top: 74%;
 	left: 6%;
 }
+.project-container-three {
+	margin-top: 37%;
+}
 .pic-three {
-	margin: 39% 0 0 6%;
+	margin: 0 0 0 6%;
 }
 .project-info.three {
 	position: absolute;
@@ -386,21 +396,21 @@ footer p {
 }
 
 // Begin Media Queries
-@media (min-width: 1280px) and (max-width: 2000px) {
-	.wrapper {
-		max-width: 2000px;
-	}
-	.home-content-wrapper {
-		height: 92vh;
-		padding: 0;
-	}
-	.home-content-wrapper h1 {
-		width: 76%;
-	}
-	.home-content-wrapper h3 {
-		width: 30%;
-	}
-}
+// @media (min-width: 1280px) and (max-width: 2000px) {
+// 	.wrapper {
+// 		max-width: 2000px;
+// 	}
+// 	.home-content-wrapper {
+// 		height: 92vh;
+// 		padding: 0;
+// 	}
+// 	.home-content-wrapper h1 {
+// 		width: 76%;
+// 	}
+// 	.home-content-wrapper h3 {
+// 		width: 30%;
+// 	}
+// }
 
 @media (max-width: 940px) {
 	nav li {
@@ -413,10 +423,13 @@ footer p {
 		font-size: 3rem;
 	}
 	.about-section {
-		margin: 4% 0 5% 0;
+		margin: 1% 0 5% 0;
 	}
 	.about-content {
 		display: block;
+	}
+	.about-content-wrapper {
+		height: 101vh;
 	}
 	.about-content img {
 		display: inline-block;
@@ -424,21 +437,35 @@ footer p {
 		margin: 12% 0 0 15%;
 	}
 	.about-content p {
-		margin: 3% 0 0 15%;
-		width: 65%;
+		margin: 3% 0 15% 15%;
+		width: 67%;
 		height: 120px;
+		font-size: 0.8rem;
 	}
 	.portfolio-section {
-		margin: 0 0 58% 0;
+		margin: 0 0 61% 0;
 	}
 	.portfolio-content-wrapper {
-		padding-bottom: 26%;
+		padding-bottom: 27%;
+	}
+	.live-button.first, 
+	.live-button.third {
+		right: 53%;
+	}
+	.live-button.second {
+		right: 12%;
 	}
 	.project-container-one {
-		margin-bottom: 2%;
+		margin: 4% 0 33% 0;
 	}
 	.project-container-two {
-		margin-bottom: 17%;
+		margin-bottom: 45%;
+	}
+	.project-info.two {
+		top: 62%;
+	}
+	.project-info.three {
+		top: 69%;
 	}
 	.project-container-three {
 		margin-bottom: 12%;
@@ -471,17 +498,25 @@ footer p {
 		font-size: 1rem;
 	}
 	.about-section {
-		margin: 4% 0 -4% 0;
+		margin: 4% 0 0 0;
+	}
+	.about-section h2 {
+		top: -1%;
+		left: 12%;
+	}
+	.about-content-wrapper {
+		height: 90vh;
 	}
 	.about-content-wrapper img {
-		height: 225px;
+		height: 238px;
 	}
 	.about-content p {
 		height: 140px;
-		font-size: 0.85rem;
+		font-size: 0.7rem;
+		width: 69%;
 	}
-	.portfolio-content-wrapper h2 {
-		font-size: 1rem;
+	h2 {
+		font-size: 1.1rem;
 	}
 	.project-info {
 		width: 50%;
@@ -489,29 +524,52 @@ footer p {
 	.project-info.one {
 		right: 5%;
 	}
+	.project-info h4 {
+		font-size: 0.7rem;
+	}
+	.project-info p {
+		font-size: 0.6rem;
+	}
+	.portfolio-section {
+		margin: 0 0 51% 0;
+	}
+	.portfolio-content-wrapper {
+		padding-bottom: 15%;
+	}
 	.portfolio-content-wrapper img {
 		width: 89%;
 	}
 	.live-button {
 		font-size: 0.7rem;
 	}
+	.live-button.first {
+		right: 58%;
+	}
 	.live-button.second {
 		right: 8%;
 	}
+	.live-button.third {
+		right: 58%;
+		top: 103%;
+	}
 	.project-container-one {
-		margin-bottom: 6%;
+		margin: 4% 0 -10% 0;
 	}
 	.project-container-two {
-		margin-bottom: 24%;
+		margin-bottom: 14%;
 	}
 	.pic-two {
-		margin: 25% 0 0 6%;
+		margin: 14% 0 0 6%;
+	}
+	.project-info.two {
+		top: 69%;
 	}
 	.project-container-three {
-		margin-bottom: 22%;
+		margin: 42% 0 22% 0;
 	}
 	.project-info.three {
-		top: 78%;
+		top: 65%;
+		right: 5%;
 	}
 	.contact-content {
 		margin: 41% 6% 0 6%;
@@ -528,6 +586,7 @@ footer p {
 	nav {
 		max-width: 100%;
 		position: relative;
+		margin-bottom: 13%;
 	}
 	nav li {
 		width: 50vw;
@@ -544,27 +603,27 @@ footer p {
 	}
 	.about-section {
 		width: 100%;
-		margin: 0 0 -10% 0;
+		margin: 1% 0 -5% 0;
 	}
 	.about-section img {
-		height: 275px;
+		height: 300px;
 		margin: 12% 0 0 17%;
 	}
 	.about-section p {
-		margin: 3% 0 0 26%;
+		margin: 3% 0 0 16%;
+	}
+	.about-content-wrapper {
+		height: 100vh;
 	}
 	.portfolio-section {
 		width: 100%;
-		margin: 18% 0 108% 0;
+		margin: 18% 0 118% 0;
 	}
 	.portfolio-content-wrapper {
 		padding-bottom: 7%;
 	}
-	.project-container-one {
-		margin-bottom: 0;
-	}
-	.project-container-two {
-		margin-bottom: 6%;
+	.project-container-three {
+		margin: 34% 0 22% 0;
 	}
 	.contact-section {
 		width: 100%;

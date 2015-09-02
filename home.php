@@ -28,7 +28,7 @@
 			<div class="about-content-wrapper">
 				<div class="about-content">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/PAM_2534.jpg">
-					<p>toronto based. <br> business guy. <br> web dev guy.</p>
+					<p><span class="hello">Hello!</span> <br> I'm a Toronto based web dev/entrepreneur and am looking for opportunities within a pre-startup. Scroll down to check out some of my work!</p>
 				</div>
 			</div>
 		</section>
@@ -43,7 +43,7 @@
 					<div class="project-info one">
 						<h4>PSD Conversion</h4>
 						<p>Provided with a design from a "client", I converted a PSD into
-						an actual site using only HTML and CSS.</p>
+						a live site using only HTML and CSS.</p>
 					</div>
 					<a href="http://leemacd.com/project2" target="_blank" class="live-button first">See it LIVE</a>
 				</div>
