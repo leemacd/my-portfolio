@@ -636,6 +636,18 @@ footer p {
 	}
 }
 
+@media (max-width: 375px) {
+	.about-content-wrapper {
+		height: 92vh;
+	}
+	.about-section img {
+		height: 245px;
+	}
+	.about-content p {
+		width: 71%;
+	}
+}
+
 
 
 
